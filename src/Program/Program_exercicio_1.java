@@ -42,6 +42,8 @@ public class Program_exercicio_1 {
 		
 		for (int i = 1; i <= n; i++) {
 			
+			System.out.println();
+			
 			System.out.println("Enter contract #" + i + " data:");
 			
 			System.out.print("Date (DD/MM/YYYY): ");
@@ -55,6 +57,8 @@ public class Program_exercicio_1 {
 			
 			HourContract contract = new HourContract(contractDate, valuePerHour, hours);
 			worker.addContract(contract);
+		
+			System.out.println();
 			
 		}
 		

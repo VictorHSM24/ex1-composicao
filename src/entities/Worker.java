@@ -62,6 +62,8 @@ public class Worker {
 		return contracts;
 	}
 
+	//Methods
+	
 	public void addContract(HourContract contract) {
 		contracts.add(contract);
 	}
